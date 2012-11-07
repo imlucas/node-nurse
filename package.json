@@ -2,7 +2,7 @@
   "author": "Lucas Hrabovsky <lucas@ex.fm>",
   "name": "nurse",
   "description": "Standardized health checker for all our services",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/exfm/node-nurse",
   "repository": {
     "type": "git",
@@ -11,7 +11,9 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "memwatch": "0.1.4"
+  },
   "devDependencies": {
     "mocha": "1.6.0"
   },
