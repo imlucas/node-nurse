@@ -25,5 +25,27 @@
       "type": "MIT",
       "url": "https://github.com/imlucas/node-nurse/blob/master/LICENSE"
     }
-  ]
+  ],
+  "jshintConfig": {
+    "node": true,
+    "es5": true,
+    "boss": true,
+    "curly": false,
+    "eqeqeq": true,
+    "noarg": true,
+    "newcap": true,
+    "noempty": true,
+    "onevar": true,
+    "plusplus": false,
+    "trailing": true,
+    "indent": 4,
+    "predef": [
+      "describe",
+      "it",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach"
+    ]
+  }
 }
