@@ -1,5 +1,9 @@
 # node-nurse
 
+<div id="build-status">
+    <a href="http://travis-ci.org/imlucas/node-nurse"><img src="https://secure.travis-ci.org/imlucas/node-nurse.png" /></a>
+</div>
+
 Standardized health check
 
 ## Usage
