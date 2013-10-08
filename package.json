@@ -2,7 +2,7 @@
   "author": "Lucas Hrabovsky <hi@imlucas.com>",
   "name": "nurse",
   "description": "Standardized health check",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "homepage": "http://github.com/imlucas/node-nurse",
   "repository": {
     "type": "git",
