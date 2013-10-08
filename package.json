@@ -1,12 +1,12 @@
 {
-  "author": "Lucas Hrabovsky <lucas@ex.fm>",
+  "author": "Lucas Hrabovsky <hi@imlucas.com>",
   "name": "nurse",
-  "description": "Standardized health checker for all our services",
+  "description": "Standardized health check",
   "version": "0.0.2",
-  "homepage": "http://github.com/exfm/node-nurse",
+  "homepage": "http://github.com/imlucas/node-nurse",
   "repository": {
     "type": "git",
-    "url": "git://github.com/exfm/node-nurse.git"
+    "url": "git://github.com/imlucas/node-nurse.git"
   },
   "scripts": {
     "test": "mocha"
@@ -20,5 +20,11 @@
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/imlucas/node-nurse/blob/master/LICENSE"
+    }
+  ]
 }
