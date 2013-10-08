@@ -9,15 +9,14 @@
     "url": "git://github.com/imlucas/node-nurse.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
-    "memwatch": "0.1.4"
+    "memwatch": "~0.2.2"
   },
   "devDependencies": {
-    "mocha": "1.6.0"
+    "mocha": "~1.13.0"
   },
-  "optionalDependencies": {},
   "engines": {
     "node": "*"
   },
