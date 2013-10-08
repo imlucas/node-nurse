@@ -14,16 +14,11 @@ memwatch.on('stats', function(stats){
 });
 
 function drain(list){
-    if(list.length === 0){
-        return [];
-    }
+    if(list.length === 0) return [];
 
-    var result = [],
-        i = null;
+    var result = [], i = null;
 
-    while(i = list.shift()){
-        result.push(i);
-    }
+    while(i = list.shift()) result.push(i);
 
     return result;
 }
